@@ -1,7 +1,7 @@
 import { IPersonIdentifier, IPersonDetail } from './dto/person';
 
 export default interface IContract {
-	Get(personIdentifier: IPersonIdentifier): IPersonDetail;
-	Create(personDetail: IPersonDetail): IPersonDetail;
-	Delete(personIdentifier: IPersonIdentifier): IPersonDetail;
+	Get(personIdentifier: IPersonIdentifier): Promise<IPersonDetail>;
+	Create(personDetail: IPersonDetail): Promise<IPersonDetail>;
+	Delete(personIdentifier: IPersonIdentifier): Promise<IPersonDetail>;
 }
