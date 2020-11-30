@@ -1,0 +1,11 @@
+{
+	"name": "contract",
+	"version": "1.0.0",
+	"main": "src/IContract.ts",
+	"repository": "https://github.com/Fraqs/Contract-System.Contract",
+	"author": "Stephan D. D. <stephan.mdd@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"typescript": "^4.1.2"
+	}
+}
